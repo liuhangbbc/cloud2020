@@ -9,8 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-provider-payment8001</artifactId>
-    <description>支付模块 8001端口</description>
+    <artifactId>cloud-consumer-order80</artifactId>
+    <description>消费者模块 80端口</description>
+
 
     <dependencies>
         <dependency>
