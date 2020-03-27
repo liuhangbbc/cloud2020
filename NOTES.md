@@ -44,4 +44,14 @@ Mysql 5.7+
 *主启动  
 *业务类  
 
+CREATE TABLE `payment`(
+	`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'ID',
+	`serial` varchar(200) DEFAULT '',
+	PRIMARY KEY (`id`)
+) engine=innodb AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;  
+
+engine=innodb 中engine使用大写（ENGINE）在navicat中会报错  
+
+payment 支付模块 工程搭建完成
+
 
